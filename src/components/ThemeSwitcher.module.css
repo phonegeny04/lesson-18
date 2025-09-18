@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.heading {
+  font-size: 1.5rem;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark .button {
+  background-color: #555;
+  color: #fff;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.light .button {
+  background-color: #ccc;
+  color: #000;
+}

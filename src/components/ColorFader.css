@@ -1,0 +1,10 @@
+.color-box {
+  width: 200px;
+  height: 200px;
+  transition: background-color 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
